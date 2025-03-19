@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import './Navbar.css'
-import logo from '../assets/logo.png'
+import logo from '../assets/Original_T.png'
 
 function Navbar() {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -32,7 +32,7 @@ function Navbar() {
               alt="Clicks Logo"
               width="140"
               height="140"
-              className="h-12 w-auto transition-all duration-300 hover:scale-105"
+              className="h-10 w-36 transition-all duration-300 hover:scale-105"
               src={logo}
               style={{ color: "transparent" }}
             />

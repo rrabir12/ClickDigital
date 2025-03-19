@@ -22,7 +22,7 @@ function PartnerCompany() {
         </div>
       </div>
       {/* <div className="relative flex flex-col gap-4 md:gap-6 overflow-hidden"> */}
-          <div className="relative flex-shrink-0 w-28 md:w-40 h-28 md:h-40 mx-2 md:mx-3 p-3 md:p-5 bg-[#0A1128]/50 backdrop-blur-sm rounded-lg md:rounded-xl border border-white/5">
+          <div className="relative flex-shrink-0 w-28 md:w-40 h-28 md:h-40 mx-2 md:mx-3 p-3 md:p-5 bg-[#0A1128]/50 backdrop-blur-sm rounded-lg md:rounded-xl border border-white/5 img-box">
             <div className="relative h-full flex items-center justify-center">
               <img
                 alt="Espresso"
