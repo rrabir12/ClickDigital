@@ -1,6 +1,7 @@
 import mahesh from '../../assets/mahesh.png'
 import sagar from '../../assets/sagar.png'
 import rabi from '../../assets/mypic.png'
+import bipin from '../../assets/bipin.png'
 
 function Teams() {
   return (
@@ -161,7 +162,6 @@ function Teams() {
               decoding="async"
               data-nimg="1"
               className="w-full h-full object-cover"
-              // srcset="/_next/image?url=%2Fteam%2Fomar.png&amp;w=128&amp;q=75 1x, /_next/image?url=%2Fteam%2Fomar.png&amp;w=256&amp;q=75 2x"
               src={rabi}
               style={{ color: "transparent" }}
             />
@@ -198,13 +198,12 @@ function Teams() {
               decoding="async"
               data-nimg="1"
               className="w-full h-full object-cover"
-              srcset="/_next/image?url=%2Fteam%2Fomar.png&amp;w=128&amp;q=75 1x, /_next/image?url=%2Fteam%2Fomar.png&amp;w=256&amp;q=75 2x"
-              src="/_next/image?url=%2Fteam%2Fomar.png&amp;w=256&amp;q=75"
+              src={bipin}
               style={{ color: "transparent" }}
             />
           </div>
           <h3 className="text-xl font-bold text-white mb-2">Bipin Xettry</h3>
-          <p className="text-blue-200 mb-4">Developer</p>
+          <p className="text-blue-200 mb-4">Advisor</p>
           <p className="text-blue-100 text-sm mb-4">
             Operations expert with a focus on scaling businesses.
           </p>
