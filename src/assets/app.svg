@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 28.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 58.2 58.2" style="enable-background:new 0 0 58.2 58.2;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{clip-path:url(#SVGID_00000171696989213498683360000014099336760350532796_);}
+	.st2{fill:#FFFFFF;filter:url(#Adobe_OpacityMaskFilter);}
+	.st3{mask:url(#mask0_589_6172_00000139264348525497802850000008293856512840538273_);}
+	.st4{fill-rule:evenodd;clip-rule:evenodd;fill:#0A0C00;}
+</style>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="6.0295" y1="29.7707" x2="51.4321" y2="29.7707">
+	<stop  offset="0" style="stop-color:#FFFFFF"/>
+	<stop  offset="1" style="stop-color:#496D94"/>
+</linearGradient>
+<path class="st0" d="M51.1,52.2H6.3c-0.2,0-0.3-0.1-0.3-0.3V7.6c0-0.2,0.1-0.3,0.3-0.3h44.8c0.2,0,0.3,0.1,0.3,0.3v44.3
+	C51.4,52.1,51.3,52.2,51.1,52.2z"/>
+<g>
+	<defs>
+		<rect id="SVGID_00000034074155344907837110000012908458129721061762_" x="9.1" y="9.7" width="40" height="40"/>
+	</defs>
+	<clipPath id="SVGID_00000154386711094578151690000007277593275460559264_">
+		<use xlink:href="#SVGID_00000034074155344907837110000012908458129721061762_"  style="overflow:visible;"/>
+	</clipPath>
+	<g style="clip-path:url(#SVGID_00000154386711094578151690000007277593275460559264_);">
+		<defs>
+			<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="9.1" y="9.7" width="40" height="40">
+				<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+			</filter>
+		</defs>
+		
+			<mask maskUnits="userSpaceOnUse" x="9.1" y="9.7" width="40" height="40" id="mask0_589_6172_00000139264348525497802850000008293856512840538273_">
+			<path class="st2" d="M49.1,9.7h-40v40h40V9.7z"/>
+		</mask>
+		<g class="st3">
+			<path class="st4" d="M49.1,19.7v-10h-20v10c0-5.5-4.5-10-10-10h-10v20h10c-5.5,0-10,4.5-10,10v10h20v-10c0,5.5,4.5,10,10,10h10
+				v-20h-10C44.6,29.7,49.1,25.2,49.1,19.7z"/>
+		</g>
+	</g>
+</g>
+</svg>
