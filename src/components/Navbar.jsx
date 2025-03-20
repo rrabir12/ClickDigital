@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import './Navbar.css'
-import logo from '../assets/logo.png'
+import logo from '../assets/Click Digitals web-01.png'
 
 function Navbar() {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -23,7 +23,7 @@ function Navbar() {
   }, []);
 
   return (
-    <nav className={`fixed w-full z-50 top-0 start-0 transition-all duration-500 ${isScrolled ? "py-6 modern-glass" : "py-4 bg-transparent"}`}>
+    <nav className={`fixed w-full z-50 top-0 start-0 transition-all duration-500 ${isScrolled ? "py-4 modern-glass" : "py-6 bg-transparent"}`}>
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex items-center justify-between">
           {/* Logo */}
@@ -32,7 +32,7 @@ function Navbar() {
               alt="Clicks Logo"
               width="140"
               height="140"
-              className="h-10 w-36 transition-all duration-300 hover:scale-105"
+              className="h-9 w-40 transition-all duration-300 hover:scale-105"
               src={logo}
               style={{ color: "transparent" }}
             />
@@ -63,9 +63,9 @@ function Navbar() {
           <div className="rounded-xl modern-glass-mobile p-4">
             <div className="flex flex-col gap-2">
               <a className="w-full px-4 py-3 text-white/90 hover:text-white font-medium text-sm modern-nav-item-mobile" href="/">Home</a>
-              <a className="cursor-pointer w-full px-4 py-3 text-white/90 hover:text-white font-medium text-sm modern-nav-item-mobile">Services</a>
-              <a className="cursor-pointer w-full px-4 py-3 text-white/90 hover:text-white font-medium text-sm modern-nav-item-mobile">Our Process</a>
-              <a className="cursor-pointer w-full px-4 py-3 text-white/90 hover:text-white font-medium text-sm modern-nav-item-mobile">Our Process</a>
+              <a className="cursor-pointer w-full px-4 py-3 text-white/90 hover:text-white font-medium text-sm modern-nav-item-mobile" href="#services">Services</a>
+              <a className="cursor-pointer w-full px-4 py-3 text-white/90 hover:text-white font-medium text-sm modern-nav-item-mobile" href="#process">Our Process</a>
+              <a className="cursor-pointer w-full px-4 py-3 text-white/90 hover:text-white font-medium text-sm modern-nav-item-mobile">Internship</a>
               <a className="w-full py-3 mt-2 rounded-lg text-white font-medium text-center text-sm modern-button" href="/contact">Contact Us</a>
             </div>
           </div>

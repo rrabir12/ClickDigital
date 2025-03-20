@@ -1,6 +1,5 @@
 import React from "react";
 import img from '../assets/logo.png'
-import './PartnerCompany.css'
 
 function PartnerCompany() {
   return (
@@ -22,7 +21,7 @@ function PartnerCompany() {
         </div>
       </div>
       {/* <div className="relative flex flex-col gap-4 md:gap-6 overflow-hidden"> */}
-          <div className="relative flex-shrink-0 w-28 md:w-40 h-28 md:h-40 mx-2 md:mx-3 p-3 md:p-5 bg-[#0A1128]/50 backdrop-blur-sm rounded-lg md:rounded-xl border border-white/5 img-box">
+          <div className="relative flex-shrink-0 w-28 md:w-40 h-28 md:h-40 mx-2 md:mx-3 p-3 md:p-5 bg-[#0A1128]/50 backdrop-blur-sm rounded-lg md:rounded-xl border border-white/5" style={{marginLeft: "43.2%", border: "0.1px solid #f2f2f2"}}>
             <div className="relative h-full flex items-center justify-center">
               <img
                 alt="Espresso"
@@ -40,7 +39,7 @@ function PartnerCompany() {
         <div style={{ opacity: 1, transform: "none" }}>
           <a
             href="/contact"
-            className="inline-flex items-center gap-2 bg-gradient-to-r from-[#001233] to-[#0A1128] text-white font-semibold py-3 md:py-4 px-6 md:px-8 rounded-full border border-white/10 hover:border-white/20"
+            className="inline-flex items-center gap-2 bg-gradient-to-r from-[#001233] to-[#0A1128] text-white font-semibold py-3 md:py-4 px-6 md:px-8 rounded-full border border-white/10 hover:border-white/20" style={{border: "1px solid #f5f5f5"}}
           >
             <span>Partner With Us</span>
             <svg

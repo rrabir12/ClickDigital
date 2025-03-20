@@ -11,10 +11,10 @@ function Home() {
     <>
       <Hero />
       <Services id="services" />
-      <CoreFeature id="core-feature" />
-      <PartnerCompany id="partner-company" />
-      <Teams id="teams" />
-      <TechStack id="tech-stack" />
+      <CoreFeature />
+      <PartnerCompany />
+      <Teams />
+      <TechStack />
       <Process id="process" />
     </>
   )
