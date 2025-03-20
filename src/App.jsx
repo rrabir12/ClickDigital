@@ -6,6 +6,9 @@ import Services from "./pages/Services/Services";
 import CoreFeature from "./pages/CoreFeature/CoreFeature";
 import PartnerCompany from "./pages/PartnerCompany.jsx/PartnerCompany";
 import Teams from "./pages/Teams/Teams";
+import TechStack from "./pages/TechStack/TechStack";
+import Process from "./pages/Process/Process";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -16,6 +19,9 @@ function App() {
       <CoreFeature />
       <PartnerCompany />
       <Teams />
+      <TechStack />
+      <Process />
+      <Footer />
     </>
   );
 }
