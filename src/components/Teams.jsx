@@ -1,7 +1,7 @@
-import mahesh from '../../assets/mahesh.png'
-import sagar from '../../assets/sagar.png'
-import rabi from '../../assets/mypic.png'
-import bipin from '../../assets/bipin.png'
+import mahesh from '../assets/mahesh.png'
+import sagar from '../assets/sagar.png'
+import rabi from '../assets/mypic.png'
+import bipin from '../assets/bipin.png'
 
 function Teams() {
   return (

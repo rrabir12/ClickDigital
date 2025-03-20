@@ -1,28 +1,20 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Navbar from "./components/Navbar";
-import Home from "./pages/Home/Home";
-import Services from "./pages/Services/Services";
-import CoreFeature from "./pages/CoreFeature/CoreFeature";
-import PartnerCompany from "./pages/PartnerCompany.jsx/PartnerCompany";
-import Teams from "./pages/Teams/Teams";
-import TechStack from "./pages/TechStack/TechStack";
-import Process from "./pages/Process/Process";
+import Home from './pages/Home/Home'
 import Footer from "./components/Footer";
+import Contact from "./pages/Contact/Contact";
 
 function App() {
   return (
-    <>
+    <BrowserRouter>
       <Navbar />
-      <Home />
-      <Services />
-      <CoreFeature />
-      <PartnerCompany />
-      <Teams />
-      <TechStack />
-      <Process />
+      <Routes>
+        <Route index element={<Home />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
       <Footer />
-    </>
+      </BrowserRouter>
   );
 }
 

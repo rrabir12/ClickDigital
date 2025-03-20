@@ -1,7 +1,7 @@
-import img1 from '../../assets/mobile-app-developing.png'
-import img2 from '../../assets/ux.png'
-import img3 from '../../assets/digital-marketing.png'
-import img4 from '../../assets/web-programming.png'
+import img1 from '../assets/mobile-app-developing.png'
+import img2 from '../assets/ux.png'
+import img3 from '../assets/digital-marketing.png'
+import img4 from '../assets/web-programming.png'
 
 const Services = () => {
 

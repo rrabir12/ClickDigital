@@ -41,8 +41,8 @@ function Navbar() {
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center gap-x-2">
             <a className="relative px-4 py-2 text-white/90 hover:text-white font-medium text-sm modern-nav-item" href="/">Home</a>
-            <a className="cursor-pointer relative px-4 py-2 text-white/90 hover:text-white font-medium text-sm modern-nav-item">Services</a>
-            <a className="cursor-pointer relative px-4 py-2 text-white/90 hover:text-white font-medium text-sm modern-nav-item">Our Process</a>
+            <a className="cursor-pointer relative px-4 py-2 text-white/90 hover:text-white font-medium text-sm modern-nav-item" href="#services">Services</a>
+            <a className="cursor-pointer relative px-4 py-2 text-white/90 hover:text-white font-medium text-sm modern-nav-item" href="#process">Our Process</a>
             <a className="cursor-pointer relative px-4 py-2 text-white/90 hover:text-white font-medium text-sm modern-nav-item">Internship</a>
             <a className="ml-4 px-8 py-3 rounded-lg text-white font-medium text-sm modern-button" href="/contact">Contact Us</a>
           </div>
