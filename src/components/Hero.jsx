@@ -68,7 +68,7 @@ function Hero() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12 md:mb-20">
             <a
               className="modern-button px-6 py-3 md:px-8 md:py-4 rounded-lg font-semibold bg-[#4277af] text-white hover:bg-[#4277af]/90 transition-colors duration-300"
-              href="/contact"
+              href="/quickenquiry"
             >
               Start Your Project
             </a>

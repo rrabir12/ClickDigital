@@ -12,40 +12,30 @@ const Services = () => {
       description:
         "Achieve your business goals with a custom-built, fast, reliable, and user-friendly website.",
       imgSrc: img4,
-      link: "",
-      btnText: "View Our Work",
     },
     {
       title: "Digital Marketing",
       description:
         "Reach the right audience at the right time with targeted digital marketing strategies.",
       imgSrc: img3,
-      link: "/ecommerce",
-      btnText: "Learn More",
     },
     {
       title: "App Development",
       description:
         "Boost your business with our user-friendly web app development using the latest tech.",
       imgSrc: img1,
-      link: "/#work",
-      btnText: "Learn More",
     },
     {
       title: "UI/UX Design & Branding",
       description:
         "Transform your brand with our UI/UX design and branding service tailored to your audience.",
       imgSrc: img2,
-      link: "/#design",
-      btnText: "View Our Work",
     },
     {
       title: "Training",
       description:
         "Empowering students with industry-relevant skills and hands-on experience to bridge the gap between academic learning and corporate excellence.",
       imgSrc: img5,
-      link: "/#training",
-      btnText: "View Our Work",
     },
   ];
 
@@ -96,9 +86,9 @@ const Services = () => {
                 <p className="text-blue-200/60 mb-8">{service.description}</p>
                 <a
                   className="inline-flex items-center px-6 py-3 rounded-xl bg-gradient-to-r from-orange-400 to-orange-600 text-white font-medium transition-all duration-300 hover:shadow-lg hover:scale-105 hover:shadow-blue-500/25"
-                  href={service.link}
+                  href="/quickenquiry"
                 >
-                  <span>{service.btnText}</span>
+                  <span>Contact Us</span>
                   <svg
                     className="w-5 h-5 ml-2"
                     fill="none"

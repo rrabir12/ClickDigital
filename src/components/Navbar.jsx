@@ -65,7 +65,7 @@ function Navbar() {
               <a className="w-full px-4 py-3 text-white/90 hover:text-white font-medium text-sm modern-nav-item-mobile" href="/">Home</a>
               <a className="cursor-pointer w-full px-4 py-3 text-white/90 hover:text-white font-medium text-sm modern-nav-item-mobile" href="#services">Services</a>
               <a className="cursor-pointer w-full px-4 py-3 text-white/90 hover:text-white font-medium text-sm modern-nav-item-mobile" href="#process">Our Process</a>
-              <a className="cursor-pointer w-full px-4 py-3 text-white/90 hover:text-white font-medium text-sm modern-nav-item-mobile" href="#internship">Internship</a>
+              <a className="cursor-pointer w-full px-4 py-3 text-white/90 hover:text-white font-medium text-sm modern-nav-item-mobile" href="/internship">Internship</a>
               <a className="w-full py-3 mt-2 rounded-lg text-white font-medium text-center text-sm modern-button" href="/quickenquiry">Quick Enquiry</a>
             </div>
           </div>
