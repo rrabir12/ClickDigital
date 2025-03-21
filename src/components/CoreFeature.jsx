@@ -70,7 +70,7 @@ function CoreFeature() {
                   </div>
                   <a
                     className="border px-4 md:px-6 py-2 rounded-lg text-white mt-4 text-center bg-gradient-to-r from-orange-400 to-orange-600 font-medium"
-                    href="/contact"
+                    href="/quickenquiry"
                   >
                     Contact Us
                   </a>

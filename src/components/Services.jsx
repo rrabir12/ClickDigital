@@ -2,6 +2,7 @@ import img1 from '../assets/mobile-app-developing.png'
 import img2 from '../assets/ux.png'
 import img3 from '../assets/digital-marketing.png'
 import img4 from '../assets/web-programming.png'
+import img5 from '../assets/graduate.png'
 
 const Services = () => {
 
@@ -36,6 +37,14 @@ const Services = () => {
         "Transform your brand with our UI/UX design and branding service tailored to your audience.",
       imgSrc: img2,
       link: "/#design",
+      btnText: "View Our Work",
+    },
+    {
+      title: "Training",
+      description:
+        "Empowering students with industry-relevant skills and hands-on experience to bridge the gap between academic learning and corporate excellence.",
+      imgSrc: img5,
+      link: "/#training",
       btnText: "View Our Work",
     },
   ];

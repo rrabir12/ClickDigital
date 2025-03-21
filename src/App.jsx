@@ -3,7 +3,9 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import Home from './pages/Home/Home'
 import Footer from "./components/Footer";
-import Contact from "./pages/Contact/Contact";
+import Contact from "./pages/QuickEnquiry/QuickEnquiry";
+import Internship from "./pages/Internship/Internship";
+import QuickEnquiry from "./pages/QuickEnquiry/QuickEnquiry";
 
 function App() {
   return (
@@ -11,7 +13,8 @@ function App() {
       <Navbar />
       <Routes>
         <Route index element={<Home />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/quickenquiry" element={<QuickEnquiry />} />
+        <Route path="/internship" element={<Internship />} />
       </Routes>
       <Footer />
       </BrowserRouter>

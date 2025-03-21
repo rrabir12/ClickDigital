@@ -1,5 +1,5 @@
 import React from "react";
-import logo from '../assets/Click Digitals web-01.png'
+import logo from '../assets/Click Digitals logo.png'
 
 function Footer() {
   return (
@@ -28,7 +28,7 @@ function Footer() {
                   </a>
                 </li>
                 <li className="mb-4">
-                  <a href="/contact" className="hover:underline">
+                  <a href="/quickenquiry" className="hover:underline">
                     Contact Us
                   </a>
                 </li>

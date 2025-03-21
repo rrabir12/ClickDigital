@@ -38,7 +38,7 @@ function PartnerCompany() {
       <div className="mt-12 md:mt-20 text-center relative">
         <div style={{ opacity: 1, transform: "none" }}>
           <a
-            href="/contact"
+            href="/quickenquiry"
             className="inline-flex items-center gap-2 bg-gradient-to-r from-[#001233] to-[#0A1128] text-white font-semibold py-3 md:py-4 px-6 md:px-8 rounded-full border border-white/10 hover:border-white/20" style={{border: "1px solid #f5f5f5"}}
           >
             <span>Partner With Us</span>

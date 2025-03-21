@@ -5,6 +5,7 @@ import PartnerCompany from "../../components/PartnerCompany";
 import Teams from "../../components/Teams";
 import TechStack from "../../components/TechStack";
 import Process from "../../components/Process";
+import Internship from '../Internship/Internship';
 
 function Home() {
   return (

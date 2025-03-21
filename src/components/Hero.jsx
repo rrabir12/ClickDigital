@@ -3,11 +3,12 @@ import { useState, useEffect } from "react";
 function Hero() {
   
   const words = [
+    "Digital Marketing",
     "Website",
     "Application",
-    "Branding",
-    "Digital Marketing",
-    "Web Design",
+    "Graphics & Branding",
+    "UI/UX ",
+    "Training",
   ];
   const [index, setIndex] = useState(0);
   const [text, setText] = useState("");

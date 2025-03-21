@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import './Navbar.css'
-import logo from '../assets/Click Digitals web-01.png'
+import logo from '../assets/Click Digitals logo.png'
 
 function Navbar() {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -43,8 +43,8 @@ function Navbar() {
             <a className="relative px-4 py-2 text-white/90 hover:text-white font-medium text-sm modern-nav-item" href="/">Home</a>
             <a className="cursor-pointer relative px-4 py-2 text-white/90 hover:text-white font-medium text-sm modern-nav-item" href="#services">Services</a>
             <a className="cursor-pointer relative px-4 py-2 text-white/90 hover:text-white font-medium text-sm modern-nav-item" href="#process">Our Process</a>
-            <a className="cursor-pointer relative px-4 py-2 text-white/90 hover:text-white font-medium text-sm modern-nav-item">Internship</a>
-            <a className="ml-4 px-8 py-3 rounded-lg text-white font-medium text-sm modern-button" href="/contact">Contact Us</a>
+            <a className="cursor-pointer relative px-4 py-2 text-white/90 hover:text-white font-medium text-sm modern-nav-item" href="/internship">Internship</a>
+            <a className="ml-4 px-8 py-3 rounded-lg text-white font-medium text-sm modern-button" href="/quickenquiry">Quick Enquiry</a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -65,8 +65,8 @@ function Navbar() {
               <a className="w-full px-4 py-3 text-white/90 hover:text-white font-medium text-sm modern-nav-item-mobile" href="/">Home</a>
               <a className="cursor-pointer w-full px-4 py-3 text-white/90 hover:text-white font-medium text-sm modern-nav-item-mobile" href="#services">Services</a>
               <a className="cursor-pointer w-full px-4 py-3 text-white/90 hover:text-white font-medium text-sm modern-nav-item-mobile" href="#process">Our Process</a>
-              <a className="cursor-pointer w-full px-4 py-3 text-white/90 hover:text-white font-medium text-sm modern-nav-item-mobile">Internship</a>
-              <a className="w-full py-3 mt-2 rounded-lg text-white font-medium text-center text-sm modern-button" href="/contact">Contact Us</a>
+              <a className="cursor-pointer w-full px-4 py-3 text-white/90 hover:text-white font-medium text-sm modern-nav-item-mobile" href="#internship">Internship</a>
+              <a className="w-full py-3 mt-2 rounded-lg text-white font-medium text-center text-sm modern-button" href="/quickenquiry">Quick Enquiry</a>
             </div>
           </div>
         </div>
