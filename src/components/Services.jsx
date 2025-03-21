@@ -85,7 +85,7 @@ const Services = () => {
                 </div>
                 <p className="text-blue-200/60 mb-8">{service.description}</p>
                 <a
-                  className="inline-flex items-center px-6 py-3 rounded-xl bg-gradient-to-r from-orange-400 to-orange-600 text-white font-medium transition-all duration-300 hover:shadow-lg hover:scale-105 hover:shadow-blue-500/25"
+                  className="inline-flex items-center px-6 py-3 rounded-xl bg-gradient-to-r from-orange-400 to-orange-600 text-white font-medium transition-all duration-300 hover:shadow-lg hover:scale-105 hover:shadow-orange-500/25"
                   href="/quickenquiry"
                 >
                   <span>Contact Us</span>

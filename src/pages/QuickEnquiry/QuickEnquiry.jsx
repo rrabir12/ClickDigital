@@ -60,7 +60,7 @@ export default function QuickEnquiry() {
               className="mt-2 block w-full bg-zinc-800 border border-zinc-600 rounded-lg shadow-sm text-base p-4 text-zinc-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
             ></textarea>
             {/* Submit Button */}
-            <button className="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 w-full md:w-auto">
+            <button className="inline-flex items-center px-6 py-3 rounded-xl bg-gradient-to-r from-orange-400 to-orange-600 text-white font-medium transition-all duration-300 hover:shadow-lg hover:scale-105 hover:shadow-orange-500/25">
               Submit
             </button>
           </form>
@@ -73,7 +73,7 @@ export default function QuickEnquiry() {
           <div className="mt-10 space-y-12 text-white">
             <div className="flex items-center space-x-4">
               {/* Icon with background */}
-              <div className="bg-blue-500 p-3 rounded-full flex items-center justify-center">
+              <div className="bg-gradient-to-r from-orange-400 to-orange-600 p-3 rounded-full flex items-center justify-center">
                 <FaPhone className="text-white text-xl" />
               </div>
 
@@ -87,7 +87,7 @@ export default function QuickEnquiry() {
             {/* Other Contact Details */}
             <div className="flex items-center space-x-4">
               {/* Icon with background */}
-              <div className="bg-blue-500 p-3 rounded-full flex items-center justify-center">
+              <div className="bg-gradient-to-r from-orange-400 to-orange-600 p-3 rounded-full flex items-center justify-center">
               <HiOutlineMail className="text-white text-xl"/>
               </div>
 
@@ -100,7 +100,7 @@ export default function QuickEnquiry() {
 
             <div className="flex items-center space-x-4">
               {/* Icon with background */}
-              <div className="bg-blue-500 p-3 rounded-full flex items-center justify-center">
+              <div className="bg-gradient-to-r from-orange-400 to-orange-600 p-3 rounded-full flex items-center justify-center">
               <FaLocationDot className="text-white text-xl"/>
               </div>
 
