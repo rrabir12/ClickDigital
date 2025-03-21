@@ -169,7 +169,7 @@ function Teams() {
           <h3 className="text-xl font-bold text-white mb-2">Rabi Roy</h3>
           <p className="text-blue-200 mb-4">Developer</p>
           <p className="text-blue-100 text-sm mb-4">
-            Operations expert with a focus on scaling businesses.
+          Crafting innovative and scalable digital solutions to elevate your business in the digital world.
           </p>
           <div className="flex justify-center gap-4">
             <a
@@ -205,7 +205,7 @@ function Teams() {
           <h3 className="text-xl font-bold text-white mb-2">Bipin Xettry</h3>
           <p className="text-blue-200 mb-4">Advisor</p>
           <p className="text-blue-100 text-sm mb-4">
-            Operations expert with a focus on scaling businesses.
+          Our commitment is to provide expert guidance and innovative solutions to help your business thrive.
           </p>
           <div className="flex justify-center gap-4">
             <a

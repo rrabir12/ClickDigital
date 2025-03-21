@@ -42,6 +42,16 @@ function Internship() {
       description:
         "Step into the world of Django and gain practical experience in python which can be very beneficial for future.",
     },
+    {
+      title: "Graphics Design",
+      description:
+        "Gain hands-on experience in branding, UI/UX, social media creatives, and more! Work on real projects, learn from industry experts, and build a stunning portfolio.",
+    },
+    {
+      title: "Digital Marketing",
+      description:
+        "Gain hands-on experience in SEO, social media marketing, content creation, and paid advertising while working on real projects.",
+    },
   ];
 
   return (
