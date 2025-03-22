@@ -106,15 +106,10 @@ function Teams() {
                     CEO 
                   </p>
                   <p className="text-blue-100 mb-4">
-                    A visionary leader who excels in business development,
-                    strategic planning, and operations management. His natural
-                    leadership abilities and hands-on approach have created a
-                    culture of innovation and excellence throughout the company.
+                  A distinguished leader known for building exceptional client relationships and driving business growth. His strategic approach to sales leadership and talent development has transformed our client partnerships and market presence. Through his deep understanding of market dynamics, he continues to elevate our business development initiatives to new heights.
                   </p>
                   <p className="text-blue-200 italic mb-6">
-                    "The foundation of lasting business success lies in
-                    strategic thinking, decisive action, and an unwavering
-                    commitment to excellence in everything we do."
+                  "Building lasting relationships and empowering teams are the cornerstones of sustainable success."
                   </p>
                   <div className="flex justify-center gap-4">
                     <a
