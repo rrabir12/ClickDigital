@@ -41,7 +41,15 @@ function Footer() {
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-4">
                   <a
-                    href="https://www.instagram.com/clicksdigitals/"
+                    href="https://www.facebook.com/share/18wUWM79sm/"
+                    className="hover:underline "
+                  >
+                    Facebook
+                  </a>
+                </li>
+                <li className="mb-4">
+                  <a
+                    href="https://www.instagram.com/click.digitals?igsh=ZnE0Y2UyejU3ZDhz"
                     className="hover:underline "
                   >
                     Instagram
@@ -56,7 +64,7 @@ function Footer() {
           <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
             © 2024
             <a href="/" className="hover:underline">
-              Clicks Digitals™
+              Click Digitals™
             </a>
             . All Rights Reserved.
           </span>

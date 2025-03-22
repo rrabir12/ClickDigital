@@ -9,8 +9,8 @@ export default function QuickEnquiry() {
   const [value, setValue] = useState();
 
   return (
-    <div className="bg-[#000000] pb-20">
-      <div className="max-w-5xl pt-36 mx-auto p-6 grid grid-cols-1 md:grid-cols-2 gap-28">
+    <div className="bg-[#000000] px-1 md:px-10 py-6 md:py-10 z-[10] relative">
+      <div className="max-w-5xl mb-10 pt-36 mx-auto p-6 grid grid-cols-1 md:grid-cols-2 gap-28">
         {/* Left Side: Form Section */}
         <div>
           <p className="text-white text-xl">Have a Project in Mind</p>
@@ -23,12 +23,12 @@ export default function QuickEnquiry() {
               <input
                 type="text"
                 placeholder="Your Name"
-                className="mt-2 block w-full bg-zinc-800 border border-zinc-600 rounded-lg shadow-sm text-base p-4 text-zinc-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="mt-2 block w-full bg-zinc-800 border border-zinc-600 rounded-lg shadow-sm text-base p-4 text-zinc-300 focus:outline-none focus:ring-2 focus:ring-orange-500"
               />
               <input
                 type="email"
                 placeholder="Your Email"
-                className="mt-2 block w-full bg-zinc-800 border border-zinc-600 rounded-lg shadow-sm text-base p-4 text-zinc-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="mt-2 block w-full bg-zinc-800 border border-zinc-600 rounded-lg shadow-sm text-base p-4 text-zinc-300 focus:outline-none focus:ring-2 focus:ring-orange-500"
               />
             </div>
             {/* Phone and Dropdown */}
@@ -36,10 +36,10 @@ export default function QuickEnquiry() {
               <PhoneInput
                 placeholder="Enter phone number"
                 value={value}
-                className="mt-2 block w-full bg-zinc-800 border border-zinc-600 rounded-lg shadow-sm text-base p-4 text-zinc-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="mt-2 block w-full bg-zinc-800 border border-zinc-600 rounded-lg shadow-sm text-base p-4 text-zinc-300 focus:outline-none focus:ring-2 focus:ring-orange-500"
                 onChange={setValue}
               />
-              <select className="mt-2 block w-full bg-zinc-800 border border-zinc-600 rounded-lg shadow-sm text-base p-4 text-zinc-300 focus:outline-none focus:ring-2 focus:ring-blue-500">
+              <select className="mt-2 block w-full bg-zinc-800 border border-zinc-600 rounded-lg shadow-sm text-base p-4 text-zinc-300 focus:outline-none focus:ring-2 focus:ring-orange-500">
                 <option>Services</option>
                 <option>Web Development</option>
                 <option>App Development</option>
@@ -57,7 +57,7 @@ export default function QuickEnquiry() {
             {/* Message Box */}
             <textarea
               placeholder="Your Message"
-              className="mt-2 block w-full bg-zinc-800 border border-zinc-600 rounded-lg shadow-sm text-base p-4 text-zinc-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="mt-2 block w-full bg-zinc-800 border border-zinc-600 rounded-lg shadow-sm text-base p-4 text-zinc-300 focus:outline-none focus:ring-2 focus:ring-orange-500"
             ></textarea>
             {/* Submit Button */}
             <button className="inline-flex items-center px-6 py-3 rounded-xl bg-gradient-to-r from-orange-400 to-orange-600 text-white font-medium transition-all duration-300 hover:shadow-lg hover:scale-105 hover:shadow-orange-500/25">
@@ -80,7 +80,8 @@ export default function QuickEnquiry() {
               {/* Text Section */}
               <div className="flex flex-col">
                 <div className="text-xl font-semibold">Our Phone Number</div>
-                <span className="text-md text-[#99A1AF]">+977 234 567 890</span>
+                <span className="text-md text-[#99A1AF]">+977-9814711234
+                </span>
               </div>
             </div>
 
@@ -94,7 +95,7 @@ export default function QuickEnquiry() {
               {/* Text Section */}
               <div className="flex flex-col">
                 <div className="text-xl font-semibold">Our Email</div>
-                <span className="text-md text-[#99A1AF]">Career23@gmail.com</span>
+                <span className="text-md text-[#99A1AF]">Clickdigitals2024@gmail.com</span>
               </div>
             </div>
 
@@ -107,7 +108,7 @@ export default function QuickEnquiry() {
               {/* Text Section */}
               <div className="flex flex-col">
                 <div className="text-xl font-semibold">Our Office Address</div>
-                <span className="text-md text-[#99A1AF]">Itahari, Deurali Marga, Sunsari, Nepal</span>
+                <span className="text-md text-[#99A1AF]"><a href="https://g.co/kgs/4sMGN7e">Nobel Road Kanchanbari, Biratnagar</a></span>
               </div>
             </div>
           </div>
