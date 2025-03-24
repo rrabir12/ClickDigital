@@ -4,7 +4,7 @@ function TechStack() {
   return (
     <>
       <div
-        className="h-[200vh] md:h-[400vh] bg-black w-full dark:border dark:border-white/[0.1] rounded-md relative pt-20 md:pt-40 overflow-clip"
+        className="h-[100vh] md:h-[100vh] bg-black w-full dark:border dark:border-white/[0.1] rounded-md relative pt-20 md:pt-40 overflow-clip"
         id="stack"
       >
         <div className="sticky top-80">

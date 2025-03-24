@@ -1,10 +1,12 @@
 import { useState, useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import './Navbar.css'
 import logo from '../assets/Click Digitals logo.png'
 
 function Navbar() {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+  const location = useLocation(); // Get current path
 
   useEffect(() => {
     const handleScroll = () => {
@@ -40,10 +42,10 @@ function Navbar() {
 
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center gap-x-2">
-            <a className="relative px-4 py-2 text-white/90 hover:text-white font-medium text-sm modern-nav-item" href="/">Home</a>
-            <a className="cursor-pointer relative px-4 py-2 text-white/90 hover:text-white font-medium text-sm modern-nav-item" href="#services">Services</a>
-            <a className="cursor-pointer relative px-4 py-2 text-white/90 hover:text-white font-medium text-sm modern-nav-item" href="#process">Our Process</a>
-            <a className="cursor-pointer relative px-4 py-2 text-white/90 hover:text-white font-medium text-sm modern-nav-item" href="/internship">Internship</a>
+            <a className={`relative px-4 py-2 text-white/90 hover:text-white font-medium text-sm modern-nav-item ${location.pathname === "/" ? "bg-[#2F3549] text-white" : ""}`} href="/">Home</a>
+            <a className={`cursor-pointer relative px-4 py-2 text-white/90 hover:text-white font-medium text-sm modern-nav-item ${location.pathname === "/services" ? "bg-[#2F3549] text-white" : ""}`} href="/services">Services</a>
+            <a className={`cursor-pointer relative px-4 py-2 text-white/90 hover:text-white font-medium text-sm modern-nav-item ${location.pathname === "/process" ? "bg-[#2F3549] text-white" : ""}`} href="/process">Our Process</a>
+            <a className={`cursor-pointer relative px-4 py-2 text-white/90 hover:text-white font-medium text-sm modern-nav-item ${location.pathname === "/internship" ? "bg-[#2F3549] text-white" : ""}`} href="/internship">Internship</a>
             <a className="ml-4 px-8 py-3 rounded-lg text-white font-medium text-sm modern-button" href="/quickenquiry">Quick Enquiry</a>
           </div>
 
@@ -62,10 +64,10 @@ function Navbar() {
         <div className={`lg:hidden transition-all duration-300 ease-in-out ${isMobileMenuOpen ? "max-h-screen opacity-100" : "max-h-0 opacity-0 overflow-hidden"}`}>
           <div className="rounded-xl modern-glass-mobile p-4">
             <div className="flex flex-col gap-2">
-              <a className="w-full px-4 py-3 text-white/90 hover:text-white font-medium text-sm modern-nav-item-mobile" href="/">Home</a>
-              <a className="cursor-pointer w-full px-4 py-3 text-white/90 hover:text-white font-medium text-sm modern-nav-item-mobile" href="#services">Services</a>
-              <a className="cursor-pointer w-full px-4 py-3 text-white/90 hover:text-white font-medium text-sm modern-nav-item-mobile" href="#process">Our Process</a>
-              <a className="cursor-pointer w-full px-4 py-3 text-white/90 hover:text-white font-medium text-sm modern-nav-item-mobile" href="/internship">Internship</a>
+              <a className={`w-full px-4 py-3 text-white/90 hover:text-white font-medium text-sm modern-nav-item-mobile ${location.pathname === "/" ? "bg-[#2F3549] text-white" : ""}`} href="/">Home</a>
+              <a className={`cursor-pointer w-full px-4 py-3 text-white/90 hover:text-white font-medium text-sm modern-nav-item-mobile ${location.pathname === "/services" ? "bg-[#2F3549] text-white" : ""}`} href="/services">Services</a>
+              <a className={`cursor-pointer w-full px-4 py-3 text-white/90 hover:text-white font-medium text-sm modern-nav-item-mobile ${location.pathname === "/process" ? "bg-[#2F3549] text-white" : ""}`} href="/process">Our Process</a>
+              <a className={`cursor-pointer w-full px-4 py-3 text-white/90 hover:text-white font-medium text-sm modern-nav-item-mobile ${location.pathname === "/internship" ? "bg-[#2F3549] text-white" : ""}`} href="/internship">Internship</a>
               <a className="w-full py-3 mt-2 rounded-lg text-white font-medium text-center text-sm modern-button" href="/quickenquiry">Quick Enquiry</a>
             </div>
           </div>
@@ -75,4 +77,4 @@ function Navbar() {
   );
 }
 
-export default Navbar
+export default Navbar;

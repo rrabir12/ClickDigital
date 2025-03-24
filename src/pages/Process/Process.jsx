@@ -147,7 +147,7 @@ function Process() {
   ];
 
   return (
-    <section className="relative bg-[#0A0F1E] px-4 md:px-20 py-24" id="process">
+    <section className="relative bg-[#0A0F1E] px-4 md:px-20 py-24 pt-36" id="process">
       <div className="absolute inset-0 bg-gradient-radial from-blue-500/5 via-transparent to-transparent"></div>
       <div className="absolute inset-0 bg-[url('/grid.svg')] bg-center [mask-image:radial-gradient(white,transparent_85%)]"></div>
       <div className="relative max-w-7xl mx-auto">

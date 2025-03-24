@@ -3,9 +3,10 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import Home from './pages/Home/Home'
 import Footer from "./components/Footer";
-import Contact from "./pages/QuickEnquiry/QuickEnquiry";
 import Internship from "./pages/Internship/Internship";
+import Process from './pages/Process/Process'
 import QuickEnquiry from "./pages/QuickEnquiry/QuickEnquiry";
+import Services from "./pages/Services/Services";
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
         <Route index element={<Home />} />
         <Route path="/quickenquiry" element={<QuickEnquiry />} />
         <Route path="/internship" element={<Internship />} />
+        <Route path="/process" element={<Process />} />
+        <Route path="/services" element={<Services />} />
       </Routes>
       <Footer />
       </BrowserRouter>

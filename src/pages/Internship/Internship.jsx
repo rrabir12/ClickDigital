@@ -57,7 +57,7 @@ function Internship() {
   return (
     <div className="bg-[#171e34] px-1 md:px-10 py-6 md:py-10 z-[10] relative">
       <div
-        className="text-center mb-12 pt-32"
+        className="text-center mb-12 pt-28"
         style={{ opacity: "1", transform: "none" }}
       >
         <div className="inline-flex items-center gap-4 mb-8">

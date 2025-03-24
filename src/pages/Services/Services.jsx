@@ -1,8 +1,8 @@
-import img1 from '../assets/mobile-app-developing.png'
-import img2 from '../assets/ux.png'
-import img3 from '../assets/digital-marketing.png'
-import img4 from '../assets/web-programming.png'
-import img5 from '../assets/graduate.png'
+import img1 from '../../assets/mobile-app-developing.png'
+import img2 from '../../assets/ux.png'
+import img3 from '../../assets/digital-marketing.png'
+import img4 from '../../assets/web-programming.png'
+import img5 from '../../assets/graduate.png'
 
 const Services = () => {
 
@@ -40,7 +40,7 @@ const Services = () => {
   ];
 
   return (
-    <div className="relative min-h-screen overflow-hidden bg-[#040B14]" id="services">
+    <div className="relative min-h-screen pt-16 overflow-hidden bg-[#040B14]" id="services">
       <div className="absolute inset-0">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,#0A192F,#040B14)]"></div>
         <div className="absolute w-full h-full">

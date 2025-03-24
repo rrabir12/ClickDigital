@@ -1,5 +1,7 @@
 import React from "react";
 import logo from '../assets/Click Digitals logo.png'
+import { FaFacebookF } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -38,21 +40,21 @@ function Footer() {
               <h2 className="mb-6 text-sm font-semibold uppercase text-white">
                 Follow us
               </h2>
-              <ul className="text-gray-500 dark:text-gray-400 font-medium">
+              <ul className="text-gray-500 flex dark:text-gray-400 font-medium space-x-4">
                 <li className="mb-4">
                   <a
                     href="https://www.facebook.com/share/18wUWM79sm/"
-                    className="hover:underline "
+                    className="bg-gradient-to-r from-orange-400 to-orange-600 p-3 rounded-full flex items-center justify-center"
                   >
-                    Facebook
+                    <FaFacebookF className="text-white text-xl"/>
                   </a>
                 </li>
                 <li className="mb-4">
                   <a
                     href="https://www.instagram.com/click.digitals?igsh=ZnE0Y2UyejU3ZDhz"
-                    className="hover:underline "
+                    className="bg-gradient-to-r from-orange-400 to-orange-600 p-3 rounded-full flex items-center justify-center"
                   >
-                    Instagram
+                    <FaInstagram className="text-white text-xl"/>
                   </a>
                 </li>
               </ul>
