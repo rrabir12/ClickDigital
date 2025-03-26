@@ -44,6 +44,8 @@ function Footer() {
                 <li className="mb-4">
                   <a
                     href="https://www.facebook.com/share/18wUWM79sm/"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="bg-gradient-to-r from-orange-400 to-orange-600 p-3 rounded-full flex items-center justify-center"
                   >
                     <FaFacebookF className="text-white text-xl"/>
@@ -52,6 +54,8 @@ function Footer() {
                 <li className="mb-4">
                   <a
                     href="https://www.instagram.com/click.digitals?igsh=ZnE0Y2UyejU3ZDhz"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="bg-gradient-to-r from-orange-400 to-orange-600 p-3 rounded-full flex items-center justify-center"
                   >
                     <FaInstagram className="text-white text-xl"/>
