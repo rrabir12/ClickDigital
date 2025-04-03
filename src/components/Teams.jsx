@@ -103,7 +103,7 @@ function Teams() {
                     Sagar Thapa
                   </h3>
                   <p className="text-blue-300 text-lg mb-4">
-                    CEO 
+                    CTO 
                   </p>
                   <p className="text-blue-100 mb-4">
                   A distinguished leader known for building exceptional client relationships and driving business growth. His strategic approach to sales leadership and talent development has transformed our client partnerships and market presence. Through his deep understanding of market dynamics, he continues to elevate our business development initiatives to new heights.
